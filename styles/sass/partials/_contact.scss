@@ -1,0 +1,24 @@
+.contact {
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 40%;
+    h2 {
+      margin: 25px 0 5px 0;
+      span {
+        font-family: "Josefin Sans", sans-serif;
+        text-transform: uppercase;
+        font-size: 0.75rem;
+      }
+    }
+    p {
+      margin: 0;
+    }
+
+    .goodbye {
+      margin: 25px 0 10px 0;
+    }
+  }
+}

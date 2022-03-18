@@ -1,0 +1,17 @@
+.info {
+  .wrapper {
+    display: flex;
+    gap: 60px;
+
+    h2 {
+      margin: 25px 0 10px 0;
+    }
+
+    .francaisInfo {
+      width: calc(50% - 30px);
+    }
+    .englishInfo {
+      width: calc(50% - 30px);
+    }
+  }
+}
