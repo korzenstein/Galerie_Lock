@@ -506,3 +506,49 @@ footer .wrapper p {
 .contact .contactContainer .goodbye {
   margin: 25px 0 10px 0;
 }
+
+@media (max-width: 480px) {
+  .info .wrapper {
+    gap: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .info .wrapper .francaisInfo {
+    width: 100%;
+  }
+  .info .wrapper .englishInfo {
+    width: 100%;
+  }
+
+  .contact .contactContainer {
+    width: 80%;
+  }
+
+  .expositions .wrapper {
+    gap: 15px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .expositions .wrapper .automne {
+    width: 100%;
+  }
+  .expositions .wrapper .hiver {
+    width: 100%;
+  }
+
+  .summary .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 20px;
+  }
+  .summary .wrapper .francaisSum,
+.summary .wrapper .englishSum {
+    width: 100%;
+  }
+}

@@ -1,0 +1,51 @@
+@media (max-width: 480px) {
+  // Info page
+  .info {
+    .wrapper {
+      gap: 10px;
+
+      flex-direction: column;
+      .francaisInfo {
+        width: 100%;
+      }
+      .englishInfo {
+        width: 100%;
+      }
+    }
+  }
+
+  //   Contact page
+
+  .contact {
+    .contactContainer {
+      width: 80%;
+    }
+  }
+  // Expo page
+
+  .expositions {
+    .wrapper {
+      gap: 15px;
+      flex-direction: column;
+      .automne {
+        width: 100%;
+      }
+
+      .hiver {
+        width: 100%;
+      }
+    }
+  }
+
+  //   General pages
+  .summary {
+    .wrapper {
+      flex-direction: column;
+      gap: 20px;
+      .francaisSum,
+      .englishSum {
+        width: 100%;
+      }
+    }
+  }
+}
